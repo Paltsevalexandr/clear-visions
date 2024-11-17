@@ -1,0 +1,62 @@
+@import "../../styles/partials/variables.scss";
+@import "../../styles/partials/mixins.scss";
+
+.description {
+    @include tablet-landscape {
+        width: 95%;
+        padding-left: 0;
+    }
+
+    &__columns {
+        @include columns;
+    }
+    &__col {
+        @include column-one-second;
+    }
+    &__img-wrap {
+        position: relative;
+        margin-bottom: 2rem;
+        padding-bottom: 40%;
+        width: 100%;
+        height: 0;
+        box-sizing: content-box;
+        overflow: hidden;
+        
+        @include tablet-landscape {
+            height: 100%;
+            padding: 0;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        transform: translate(0, -50%);
+
+        @include tablet-landscape {
+            width: auto;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        @include title;
+        max-width: 90%;
+    }
+    &__subhead {
+        @include subhead;
+    }
+    &__text {
+        @include text;
+
+    }
+    &__link {
+        margin: 0 0.25rem;
+        @include text;
+    }
+    &__contact-link {
+        margin: 3rem auto 0;
+        @include button;
+    }
+}

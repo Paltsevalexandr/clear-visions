@@ -1,0 +1,112 @@
+@import "./variables";
+
+
+@mixin mobile {
+    @media screen and (max-width: $mobile-breakpoint) {
+        @content;
+    }
+  }
+  
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+@mixin tablet-landscape {
+    @media screen and (min-width: $tablet-landscape-breakpoint) {
+        @content; 
+    }
+}
+  
+@mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+@mixin transition($prop) {
+    transition: $prop 0.2s linear;
+}
+
+@mixin underline-after($tag) {
+    #{$tag}::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0px;
+        height: 2px;
+        background-color: $mainTextColor;
+        @include transition(width);
+    }
+    #{$tag}:hover::after {
+        width: 100%;
+    }
+}
+
+@mixin shadow {
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.55);
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin button {
+    width: 15.625rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50rem;
+    background-color: $yellow;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: $mainTextColor;
+    border: solid 1px $yellow;
+    box-shadow: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+@mixin title {
+    margin: 1rem 0;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: $mainTextColor;
+    text-align: center;
+}
+
+@mixin subhead {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: $mainTextColor;
+    text-align: center;
+}
+
+@mixin text {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: $mainTextColor;
+
+    @include tablet {
+        font-size: 1rem;
+    }
+}
+
+@mixin columns {
+    @include tablet-landscape {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@mixin column-one-second {
+    @include tablet-landscape {
+        width: 48%;
+    }
+}
