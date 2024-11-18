@@ -12,7 +12,7 @@ export default function ContactInfo() {
         </h4>
         <p className='contact-info__text'>
             <a className="contact-info__link" href="mailto:info@clearvisions.net">
-                alex@gmail.com
+                info@clearvisions.net
             </a> 
         </p>
         <h4 className="contact-info__subhead">
@@ -20,7 +20,7 @@ export default function ContactInfo() {
         </h4>
         <p className='contact-info__text'>
             <a className='contact-info__link' href="tel:+1 647-402-8637">
-                333-333-33-33
+            +1 647-402-8637
             </a>  
         </p>
         <h4 className="contact-info__subhead">

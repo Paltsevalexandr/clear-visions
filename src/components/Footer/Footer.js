@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Footer.scss";
 import ContactInfo from "../ContactInfo/ContactInfo.js";
-import logo from '../../assets/images/logo/logo.jpg';
+import logo from '../../assets/images/logo/logo.png';
 
 export default function Footer() {
   return (

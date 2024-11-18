@@ -20,29 +20,24 @@ export default function WorkDescription({scrollTop}) {
                     PAINTING DREAMS, BUILDING REALITIES
                 </h3>
                 <h2 className='description__title'>
-                    AVL Painting & Renovations: Precision in Paint, Excellence in Craft
+                    Clear Vision Group : Crafting Your Vision, Building with Excellence
                 </h2>
                 <p className='description__text'>
-                    AVL Painting & Renovations stands as a beacon of excellence in the realm 
-                    of painting and renovation services, boasting an impressive 7-year legacy. 
-                    <a href="#" className='description__link'>Our team of 5 dedicated professionals</a> 
-                    brings a fresh and innovative perspective to the art of transforming spaces.
+                    AClear Vision Group is a trusted name in construction and renovation services, 
+                    with over five years of hands-on experience. Our dedicated team brings skill, 
+                    precision, and innovation to every project, ensuring your spaces are transformed 
+                    with care and attention to detail.
                 </p>
                 <p className='description__text'>
-                    Specializing in aluminum siding, vinyl window painting, and 
-                    commercial transformations, we pride ourselves on merging precision 
-                    with creativity. Our commitment goes beyond mere surface enhancements; we 
-                    focus on the distinctive details that elevate your space to new heights.
+                    Specializing in painting, drywall, framing, roofing, and turnkey renovations, 
+                    we go beyond standard construction services. Our focus is on creating durable, 
+                    beautifully crafted solutions that align with your unique vision and elevate your home or business.
                 </p>
                 <p className='description__text'>
-                    At AVL Painting & Renovations, we transcend the role of contractors 
-                    and embrace that of craftsmen. With unparalleled expertise, we turn 
-                    your visions into tangible reality. Our gallery is a testament to 
-                    the transformative touch that sets us apart, showcasing why 
-                    AVL Painting & Renovations is the preferred choice for those seeking 
-                    not just a service but an immersive experience in craftsmanship and quality. 
-                    <a href="#" className='description__link'>Explore our portfolio</a> 
-                    and discover how we make every project a lasting masterpiece.
+                    At Clear Vision Group, we see ourselves not just as contractors, but as artisans of transformation. 
+                    With expertise and a client-focused approach, we bring your ideas to life, delivering results that 
+                    exceed expectations. Explore our portfolio and discover why Clear Vision Group is the go-to choice 
+                    for those who value craftsmanship, quality, and lasting excellence.
                 </p>
                 <a href="#" className='description__contact-link'>
                     Get A Free Quote

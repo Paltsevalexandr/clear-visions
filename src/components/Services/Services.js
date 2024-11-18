@@ -46,7 +46,7 @@ export default function Services({scrollTop}) {
     return (
         <Section classes="services" scrollTop={scrollTop}>
             <h3 className='services__subhead'>
-                ELEVATING INTERIORS, BEAUTIFYING EXTERIORS, AND BEYOND
+                TRANSFORMING SPACES, CRAFTING LEGACIES
             </h3>
             <div>
                 <h2 className='services__title'>

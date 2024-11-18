@@ -9,28 +9,25 @@ import Section from '../Section/Section';
 export default function Advantages({scrollTop}) {
 	const columns = [
 		{
-			title: "HIGH-QUALITY PRODUCTS",
+			title: "PREMIUM MATERIALS",
 			icon: faMedal,
-			text: `High-quality paints and coatings are formulated to withstand the 
-			elements, ensuring a longer lifespan for the painted surfaces. 
-			This is especially crucial for exterior painting where 
-			exposure to weather conditions can be harsh.`
+			text: `We use only high-quality materials and advanced tools to ensure our work is built to last. 
+					Whether it’s painting, drywall, or framing, our solutions are designed to withstand the test of 
+					time and enhance your space.`
 		},
 		{
-			title: "SPRAY PAINTING APPLICATION",
+			title: "PRECISION CRAFTSMANSHIP",
 			icon: faPaintRoller,
-			text: `The fine mist created by spray painting results in a smooth 
-			and flawless finish, free from brush marks or roller stippling. 
-			This is especially noticeable on surfaces like 
-			vinyl windows, kitchen cabinets, and more.`
+			text: `Our skilled team delivers impeccable results with attention to every detail. From smooth plaster 
+					finishes to precise tile installation, we ensure flawless execution that elevates the overall look
+					 and feel of your project.`
 		},
 		{
-			title: "FACTORY FINISH RESULT",
+			title: "TURNKEY EXCELLENCE",
 			icon: faBrush,
-			text: `Factory Finish for your painting needs not only guarantees 
-			a flawless, brand-new look but also ensures significant cost 
-			savings. Achieve the same high-end finish and embrace 
-			cost-effective excellence without the hefty price tag.`
+			text: `Our comprehensive approach means we handle every step of your renovation project, ensuring seamless 
+					coordination and a stress-free experience. Achieve stunning, professional results without compromising 
+					on quality or timelines.`
 		},
 	]
 	return (
