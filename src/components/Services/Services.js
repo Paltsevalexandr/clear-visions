@@ -7,22 +7,39 @@ import Section from '../Section/Section';
 export default function Services({scrollTop}) {
     const tiles = [
         {
-            title: "INTERIOR RESIDENTIAL PAINTING",
-            text: `We elevate living spaces with precision, adding vibrancy to every room. Our interior 
-                residential painting brings a personalized touch, creating havens of comfort and style.`,
+            title: "PAINTING AND FINISHING",
+            text: `We specialize in flawless painting and wall finishing to give your space a fresh, polished look.
+             Our attention to detail ensures a high-quality result that enhances the beauty and value of your home.`,
             href: ""
         },
         {
-            title: "CONDOMINIUM PAINTING",
-            text: `Transform your condo with our specialized painting services. We infuse modern aesthetics and
-                     meticulous attention to detail, enhancing the overall appeal of your living space.`,
+            title: "FRAMING",
+            text: `Strong, precise framing is the backbone of any structure. We ensure each project is built to last,
+                 with accurate measurements and top-notch craftsmanship.`,
             href: ""
         },
         {
-            title: "CUSTOM HOUSES PAINTING",
-            text: `We turn houses into homes with custom painting services. 
-                Tailored to your style, our expert team ensures a 
-                unique, enduring finish for your dream residence.`,
+            title: "PLASTERING AND DRYWALL",
+            text: `From smooth surfaces to seamless edges, we deliver expert plastering and drywall solutions. 
+                    Using advanced tools and techniques, we create a durable foundation for your interiors.`,
+            href: ""
+        },
+        {
+            title: "ROOFING",
+            text: `Protect your home with our professional roofing installation and repair services. 
+                    We use high-quality materials to create roofs that are both durable and weather-resistant.`,
+            href: ""
+        },
+        {
+            title: "TURNKEY RENOVATIONS",
+            text: `Let us handle every aspect of your renovation, from start to finish. 
+                    Our comprehensive approach ensures a stress-free process and stunning results tailored to your needs.`,
+            href: ""
+        },
+        {
+            title: "TILE INSTALLATION",
+            text: `We bring your spaces to life with high-quality tile installations for kitchens, bathrooms, and floors. 
+                    From ceramic to marble, we ensure neat, durable, and visually stunning results tailored to your style.`,
             href: ""
         },
     ];

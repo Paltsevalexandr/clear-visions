@@ -11,7 +11,7 @@ export default function ContactInfo() {
             Email
         </h4>
         <p className='contact-info__text'>
-            <a className="contact-info__link" href="mailto:alex@gmail.com">
+            <a className="contact-info__link" href="mailto:info@clearvisions.net">
                 alex@gmail.com
             </a> 
         </p>
@@ -19,7 +19,7 @@ export default function ContactInfo() {
             Phone
         </h4>
         <p className='contact-info__text'>
-            <a className='contact-info__link' href="tel:333-333-33-33">
+            <a className='contact-info__link' href="tel:+1 647-402-8637">
                 333-333-33-33
             </a>  
         </p>
@@ -27,7 +27,7 @@ export default function ContactInfo() {
             Business Hours
         </h4>
         <p className='contact-info__text'>
-            Mon-Fri 09.00 am - 05.00 pm
+            Mon-Fri 09.00 am - 06.00 pm
         </p>
     </>
   )
