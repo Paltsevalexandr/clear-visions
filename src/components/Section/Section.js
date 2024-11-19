@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-export default function Section({classes="", children, scrollTop, useAnimationEffect=true}) {
+export default function Section({classes="", id="", children, scrollTop, useAnimationEffect=true}) {
 	const sectionRef = useRef();
 	const [useAnimation, setUseAnimation] = useState(false);
 
@@ -17,6 +17,7 @@ export default function Section({classes="", children, scrollTop, useAnimationEf
 	const classesStr = `${extraClasses}${animationClass}${visibilityClass}`;
 	return (
 	<section ref={sectionRef} 
+		id={id}
 		className={classesStr}>
 		{children}
 	</section>

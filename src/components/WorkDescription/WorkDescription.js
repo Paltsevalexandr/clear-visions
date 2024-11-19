@@ -5,7 +5,7 @@ import Section from "../Section/Section";
 export default function WorkDescription({scrollTop}) {
     
   return (
-    <Section classes="description" scrollTop={scrollTop}>
+    <Section id="about-us" classes="description" scrollTop={scrollTop}>
         <div className='description__columns'>
             <div className='description__col'>
                 <div className='description__img-wrap'>
@@ -23,7 +23,7 @@ export default function WorkDescription({scrollTop}) {
                     Clear Vision Group : Crafting Your Vision, Building with Excellence
                 </h2>
                 <p className='description__text'>
-                    AClear Vision Group is a trusted name in construction and renovation services, 
+                    A Clear Vision Group is a trusted name in construction and renovation services, 
                     with over five years of hands-on experience. Our dedicated team brings skill, 
                     precision, and innovation to every project, ensuring your spaces are transformed 
                     with care and attention to detail.

@@ -1,6 +1,6 @@
  const menuItems = [
     {
-        href: '#', 
+        href: '#about-us', 
         text: 'About us'
     },
     {
@@ -22,8 +22,8 @@
         ]
     },
     {
-        href: '#', 
-        text: 'Resources'
+        href: '#services', 
+        text: 'Services'
     },
     {
         href: '/contact-us', 

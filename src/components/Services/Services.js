@@ -44,7 +44,7 @@ export default function Services({scrollTop}) {
         },
     ];
     return (
-        <Section classes="services" scrollTop={scrollTop}>
+        <Section id="services" classes="services" scrollTop={scrollTop}>
             <h3 className='services__subhead'>
                 TRANSFORMING SPACES, CRAFTING LEGACIES
             </h3>
