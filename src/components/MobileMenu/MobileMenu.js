@@ -25,8 +25,14 @@ export default function MobileMenu({showMenu}) {
                 <h2>
                     GET IN TOUCH
                 </h2>
-                <a href="tel:(647) 571-4593">Call: (647) 571-4593</a>
-                <a href="mailto:paintingavl@gmail.com">Email: paintingavl@gmail.com</a>
+                <div className="mobile-nav__contact-links-wrap">
+                    <a className='mobile-nav__contact-link' href="tel:+16474028637">
+                        Call: +1 647-402-8637
+                    </a>
+                    <a className='mobile-nav__contact-link' href="mailto:info@clearvisions.net">
+                        Email: info@clearvisions.net
+                    </a>
+                </div>
                 <p>
                     Service Area: Toronto GTA, Mississauga, Etobicoke, 
                     Brampton, Oakville, Richmond Hill, Milton, Vaughan, and Markham

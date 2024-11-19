@@ -8,7 +8,7 @@
         text: "Gallery"
     },
     {
-        href: '#', 
+        href: '#services', 
         text: 'Services',
         subItems: [
             {
@@ -21,10 +21,10 @@
             },
         ]
     },
-    {
-        href: '#services', 
-        text: 'Services'
-    },
+    // {
+    //     href: '#services', 
+    //     text: 'Services'
+    // },
     {
         href: '/contact-us', 
         text: 'Contact'

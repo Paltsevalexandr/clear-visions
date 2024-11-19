@@ -32,6 +32,13 @@
         list-style-type: none;
 
     }
+    &__contact-links-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    &__contact-link {
+        color: $dark_bg;
+    }
     &__link {
         padding: 0.625rem 0.5rem;
         position: relative;
