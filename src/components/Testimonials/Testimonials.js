@@ -38,9 +38,9 @@ export default function Testimonials({scrollTop}) {
                 })
             }
         </div>
-        <a className='testimonials__link' href="#">
+        {/* <a className='testimonials__link' href="#">
             Leave us a review
-        </a>
+        </a> */}
     </Section>
   )
 }

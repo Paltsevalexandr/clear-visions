@@ -39,7 +39,7 @@ export default function WorkDescription({scrollTop}) {
                     exceed expectations. Explore our portfolio and discover why Clear Vision Group is the go-to choice 
                     for those who value craftsmanship, quality, and lasting excellence.
                 </p>
-                <a href="#" className='description__contact-link'>
+                <a href="/contact-us" className='description__contact-link'>
                     Get A Free Quote
                 </a>
             </div>

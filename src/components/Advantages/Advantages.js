@@ -54,9 +54,9 @@ export default function Advantages({scrollTop}) {
 					})
 				}
 			</div>
-			<a href="#" className='advantages__about-us'>
+			{/* <a href="#" className='advantages__about-us'>
 				About Us
-			</a>
+			</a> */}
 			
 		</Section>
 	)

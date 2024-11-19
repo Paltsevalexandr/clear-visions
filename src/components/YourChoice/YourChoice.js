@@ -27,9 +27,9 @@ export default function YourChoice({scrollTop}) {
 				Clear Vision Group goes beyond the ordinary to create spaces that reflect your style and stand the test of time. 
 				Your vision is our mission, and we’re here to make it a reality.
 				</p>
-				<a className="choice__link">
+				{/* <a  className="choice__link">
 					Get a Free Quote
-				</a>
+				</a> */}
 			</div>
 		</div>
     </Section>
