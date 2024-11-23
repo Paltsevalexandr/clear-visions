@@ -1,6 +1,10 @@
  const menuItems = [
     {
-        href: '#about-us', 
+        href: '/', 
+        text: 'Home'
+    },
+    {
+        href: '/#about-us', 
         text: 'About us'
     },
     {
@@ -8,7 +12,7 @@
         text: "Gallery"
     },
     {
-        href: '#services', 
+        href: '/#services', 
         text: 'Services',
         subItems: [
             {
