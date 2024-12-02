@@ -9,8 +9,8 @@ export default function Header({ showMenu, setShowMenu }) {
       return /Telegram/i.test(userAgent);
     }
 
-    let foo =
-      "browser " + navigator.userAgent || navigator.vendor || window.opera;
+    let foo = typeof (navigator.userAgent || navigator.vendor || window.opera);
+    console.log(foo)
     if (isTelegramWebView()) {
       alert("Открыто во встроенном браузере Telegram");
     } else {
@@ -22,7 +22,7 @@ export default function Header({ showMenu, setShowMenu }) {
       <a className="header__logo" href="/">
         <img className="header__img" src={logo} alt="logo" />
       </a>
-      <span>{{ foo }}</span>
+      {/* <span>{{ foo }}</span> */}
       <TopMenu />
       <div className="header__links">
         <a href="tel:+16474028637" className="header__link header__link--call">
