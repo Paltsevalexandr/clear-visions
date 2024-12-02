@@ -1,32 +1,26 @@
-import React from 'react'
-import './Header.scss';
-import TopMenu from '../TopMenu/TopMenu';
-import logo from '../../assets/images/logo/logo_cropped.png';
+import React from "react";
+import "./Header.scss";
+import TopMenu from "../TopMenu/TopMenu";
+import logo from "../../assets/images/logo/logo_cropped.png";
 
 export default function Header({ showMenu, setShowMenu }) {
-    function isTelegramWebView() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-      return /Telegram/i.test(userAgent);
-    }
+  function isTelegramWebView() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    return /Telegram/i.test(userAgent);
+  }
 
-    let foo = typeof (navigator.userAgent || navigator.vendor || window.opera);
-    let browser = navigator.userAgent || navigator.vendor || window.opera;
-    console.log(foo)
-    if (isTelegramWebView()) {
-      alert("Открыто во встроенном браузере Telegram");
-    } else {
-      console.log(navigator.userAgent || navigator.vendor || window.opera);
-    }
-  
+  if (isTelegramWebView()) {
+    alert("Открыто во встроенном браузере Telegram");
+  } else {
+    console.log(navigator.userAgent || navigator.vendor || window.opera);
+  }
+
   return (
     <header className="header">
       <a className="header__logo" href="/">
         <img className="header__img" src={logo} alt="logo" />
       </a>
-      <span>
-        {foo == "string" ? browser : "unknown browser"}
-      </span>
-        <TopMenu />
+      <TopMenu />
       <div className="header__links">
         <a href="tel:+16474028637" className="header__link header__link--call">
           Call Us
