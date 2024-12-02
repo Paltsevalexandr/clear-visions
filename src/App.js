@@ -30,14 +30,7 @@ function App() {
     setScrollTop(scrollTopValue);
   }
 
-  function isTelegramWebView() {
-    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-    return /Telegram/i.test(userAgent);
-  }
-
-  if (isTelegramWebView()) {
-    alert("Открыто во встроенном браузере Telegram");
-  }
+  
 
   return (
     <div>
