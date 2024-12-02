@@ -34,14 +34,14 @@ function App() {
 
   return (
     <div>
-      <Header
+      {/* <Header
         setShowMenu={() => {
           setShowMenu(!showMenu);
           setShowOverlay(!showMenu);
         }}
         showMenu={showMenu}
       />
-      <MobileMenu showMenu={showMenu} />
+      <MobileMenu showMenu={showMenu} /> */}
       <main className="main">
         <Routes>
           <Route path="/" element={<Homepage scrollTop={scrollTop} />} />
@@ -61,7 +61,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-      <Footer />
+      {/* <Footer /> */}
 
       <div
         className={`overlay ${showOverlay ? "active" : ""}`}
